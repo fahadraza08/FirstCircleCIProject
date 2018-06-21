@@ -1,7 +1,4 @@
-workflows:
-version: 2
-jobs:
-  test:
+test:
     override:
         - ant -f ../builds/build.xml -lib build/lib/ deploy:
         timeout: 600
