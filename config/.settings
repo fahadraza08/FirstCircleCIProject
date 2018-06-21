@@ -1,0 +1,17 @@
+{
+    "projectName": "FirstCircleCIProject",
+    "username": "developer@xyz.com",
+    "id": "68360c90-7556-11e8-ac01-4d6c9dbb6d0b",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://itronix-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\TK-LPT-0013\\Documents\\GitHub",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
