@@ -908,5 +908,21 @@
         "manageableState": "unmanaged",
         "type": "ApexClass",
         "mmState": "clean"
+    },
+    "FirstClass.cls": {
+        "id": "01p7F00000UsPW9QAN",
+        "name": "FirstClass",
+        "createdDate": "2018-06-21T14:13:38.000+0000",
+        "createdById": "0057F000003QZ22QAG",
+        "namespacePrefix": null,
+        "lastModifiedById": "0057F000003QZ22QAG",
+        "lastModifiedDate": "2018-06-21T14:14:26.000+0000",
+        "fullName": "FirstClass",
+        "fileName": "unpackaged/classes/FirstClass.cls",
+        "createdByName": "Itronix Developer",
+        "lastModifiedByName": "Itronix Developer",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
     }
 }
