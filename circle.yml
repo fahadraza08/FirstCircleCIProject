@@ -1,4 +1,5 @@
-general:
+experimental:
+ notify:
   branches:
     only:
       - develop
