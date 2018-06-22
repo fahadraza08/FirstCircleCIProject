@@ -1,8 +1,8 @@
 general:
   branches:
     only:
-      - master # list of branches to build
-      - develop 
+      - develop
+      - master
 test:
  override:
  - ant -f builds/build.xml -lib build/lib/ deploy:
