@@ -6,4 +6,5 @@ test:
 general:
   branches:
     only:
-      - develop  # list of branches to build
+      - master # list of branches to build
+      - develop
