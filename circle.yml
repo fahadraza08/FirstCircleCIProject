@@ -1,10 +1,11 @@
+general:
+  branches:
+    only:
+      - master # list of branches to build
+      - develop 
 test:
  override:
  - ant -f builds/build.xml -lib build/lib/ deploy:
  timeout: 600
 
-general:
-  branches:
-    only:
-      - master # list of branches to build
-      - /feature-.*/ # or regexes
+
