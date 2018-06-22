@@ -7,3 +7,4 @@ general:
   branches:
     only:
       - master # list of branches to build
+      - develop
