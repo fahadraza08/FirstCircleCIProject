@@ -13,7 +13,8 @@ jobs:
     steps:
       - checkout
       - run:
-        command: ant -f builds/build.xml -lib build/lib/ deploy:
+        command: |
+            ant -f builds/build.xml -lib build/lib/ deploy:
 workflows:
   version: 2
   build_and_test:
