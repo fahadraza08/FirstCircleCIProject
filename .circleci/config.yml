@@ -3,4 +3,4 @@ jobs:
     build:
         steps:
             - checkout:
-            - run: ant -f ../builds/build.xml -lib build/lib/ deploy:
+            - run: echo "output here"
