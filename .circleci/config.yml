@@ -6,3 +6,4 @@ jobs:
     steps:
       - checkout
       - run: ant -lib ./builds/ build.xml
+      - run: lib build/lib/ deploy:
