@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run: 
-            command: ant -lib ../builds/build.xml -lib build/lib/ deploy:
+            command: echo "now what"
