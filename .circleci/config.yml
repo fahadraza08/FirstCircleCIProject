@@ -7,9 +7,5 @@ jobs:
     steps:
        - run:
          name: Build
-         command: |
-            ant -f builds/build.xml
-       - run:
-         name: Deploy
-         command: |
-            lib build/lib/ deploy:
+         command: - ant -f builds/build.xml -lib build/lib/ deploy:
+       
