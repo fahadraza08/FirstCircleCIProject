@@ -1,8 +1,6 @@
 version: 2
 jobs:
     build:
-        docker:
-            - image: circleci/openjdk:8-jdk
         steps:
             - checkout:
             - run: ant -f ../builds/build.xml -lib build/lib/ deploy:
