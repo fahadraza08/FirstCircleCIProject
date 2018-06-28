@@ -4,9 +4,7 @@ jobs:
     docker:
       - image: atsnngs/force-com:latest
     steps:
-      - checkout
-      - run:
-        command: ant builds/build.xml
+       - run:
         command: ant builds/build.xml
 workflows:
   version: 2
