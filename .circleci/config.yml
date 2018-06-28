@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - run:
-        command: lib build/lib/ deploy:
+        command: echo "chlo"
 workflows:
   version: 2
   build_and_test:
