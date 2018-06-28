@@ -1,6 +1,8 @@
 version: 2
 jobs:
-    build:
-        steps:
-            - checkout:
-            - run: echo "output here"
+  build:
+    docker:
+      - image: atsnngs/force-com:latest
+    steps:
+      - checkout
+      - run: echo "output here"
