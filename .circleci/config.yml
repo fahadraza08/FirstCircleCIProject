@@ -4,7 +4,7 @@ jobs:
     working_directory: /repo
     docker:
       - image: atsnngs/force-com:latest
-    steps:
+    step:
        - run:
          name: Build
          command: |
