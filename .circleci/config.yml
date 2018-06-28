@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: atsnngs/force-com:latest
+      - image: circleci/force-com:latest
     steps:
       - checkout
       - run:
-        command: echo "now what"
+            command: echo "now what"
