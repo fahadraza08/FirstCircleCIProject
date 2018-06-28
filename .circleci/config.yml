@@ -6,7 +6,8 @@ jobs:
     steps:
       - checkout
       - run:
-        command: ant -f builds/build.xml -lib build/lib/ deploy:
+        command: ant -f builds/build.xml
+        command: lib build/lib/ deploy:
   test:
     docker:
       - image: atsnngs/force-com:latest
