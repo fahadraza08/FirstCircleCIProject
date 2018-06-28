@@ -3,14 +3,14 @@ jobs:
   build:
     docker:
       - image: atsnngs/force-com:latest
-    steps:
+    step:
       - checkout
       - run:
         command: ant builds/build.xml
   test:
     docker:
       - image: atsnngs/force-com:latest
-    steps:
+    step:
       - checkout
       - run:
         command: echo "chlo abc"
