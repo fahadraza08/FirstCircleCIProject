@@ -7,24 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/package.xml",
-			"settings":
-			{
-				"buffer_size": 199,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/classes/FirstClass.cls",
-			"settings":
-			{
-				"buffer_size": 94,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -74,6 +56,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/TK-LPT-0013/Documents/GitHub/FirstCircleCIProject/src/package.xml",
+		"/C/Users/TK-LPT-0013/Documents/GitHub/FirstCircleCIProject/src/classes/FirstClass.cls",
 		"/C/Users/TK-LPT-0013/Documents/GitHub/TestCircleCIProject/.circleci/circle.yml",
 		"/C/Users/TK-LPT-0013/Documents/GitHub/TestCircleCIProject/.circleci/config.yml",
 		"/C/Users/TK-LPT-0013/Documents/GitHub/TestCircleCIProject/src/package.xml"
@@ -111,65 +95,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/package.xml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 199,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								199,
-								199
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/classes/FirstClass.cls",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								86,
-								86
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/MavensMate/sublime/lang/Apex.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
