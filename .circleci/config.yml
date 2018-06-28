@@ -6,6 +6,8 @@ jobs:
       java:
         version: oraclejdk8
   test:
+    docker:
+      - image: circleci/openjdk:8-jdk
     steps:
       - run: ant ../builds/build.xml -lib build/lib/ deploy:
 workflows:
