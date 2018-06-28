@@ -5,5 +5,5 @@ jobs:
       - image: atsnngs/force-com:latest
     steps:
       - checkout
-      - run: 
-            command: echo "now what"
+      - run:
+        command: echo "now what"
