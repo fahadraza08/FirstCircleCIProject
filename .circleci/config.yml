@@ -6,7 +6,13 @@ jobs:
       - image: atsnngs/force-com:latest
     steps:
        - run:
-         command: rm -rf /src /wsdl &&  mv /repo/src /src && mv /repo/wsdl /wsdl
+         name: Build
+         command: |
+            ant -f builds/build.xml
+       - run:
+         name: Deploy
+         command: |
+            lib build/lib/ deploy:
 workflows:
   version: 2
   build:
