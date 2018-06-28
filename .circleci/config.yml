@@ -6,15 +6,14 @@ jobs:
     steps:
       - checkout
       - run:
-        command: echo "Deploy"
+        command: ant -f builds/build.xml
   test:
     docker:
       - image: atsnngs/force-com:latest
     steps:
       - checkout
       - run:
-        command: |
-            ant -f builds/build.xml -lib build/lib/ deploy:
+        command: lib build/lib/ deploy:
 workflows:
   version: 2
   build_and_test:
