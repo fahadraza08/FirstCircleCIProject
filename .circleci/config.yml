@@ -5,4 +5,4 @@ jobs:
       - image: atsnngs/force-com:latest
     steps:
       - checkout
-      - run: echo "output here"
+      - run: ant -lib ./builds/ build.xml
