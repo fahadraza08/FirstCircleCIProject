@@ -5,5 +5,7 @@ jobs:
       - image: atsnngs/force-com:latest
     steps:
       - checkout
-      - run: ant -lib ./builds/ build.xml
-      - run: lib build/lib/ deploy:
+      - run: 
+        - command: |
+            ant -lib ../builds/ build.xml
+            lib build/lib/ deploy:
