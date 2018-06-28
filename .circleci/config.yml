@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/force-com:latest
+      - image: circleci/jdk:latest
     steps:
       - checkout
       - run:
