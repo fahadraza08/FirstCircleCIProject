@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: atsnngs/force-com:latest
-    step:
+    steps:
       - checkout
       - run:
         command: ant builds/build.xml
@@ -13,4 +13,3 @@ workflows:
   build:
     jobs:
       - build
-      - test
