@@ -1,7 +1,9 @@
 version: 2
 jobs:
   build:
+    docker:
+      - image: atsnngs/force-com:latest
     steps:
       - checkout
       - run:
-            command: echo "now what"
+        command: ant -f ../builds/build.xml
