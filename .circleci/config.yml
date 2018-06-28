@@ -1,18 +1,9 @@
 version: 2
 jobs:
-  build:
-    working_directory: ~/repo
-    machine:
-      java:
-        version: oraclejdk8
-  test:
-    docker:
-      - image: circleci/openjdk:8-jdk
-    steps:
-      - run: ant ../builds/build.xml -lib build/lib/ deploy:
-workflows:
-  version: 2
-  build_and_test:
-    jobs:
-      - build
-      - test
+    build:
+        docker:
+            - image: circleci/openjdk:8-jdk
+        steps:
+            - checkout
+            - run: ant -f ../builds/build.xml -lib build/lib/ deploy:
+
