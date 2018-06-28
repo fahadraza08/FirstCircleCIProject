@@ -7,16 +7,10 @@ jobs:
       - checkout
       - run:
         command: ant builds/build.xml
-  test:
-    docker:
-      - image: atsnngs/force-com:latest
-    step:
-      - checkout
-      - run:
-        command: echo "chlo abc"
+        command: ant builds/build.xml
 workflows:
   version: 2
-  build_and_test:
+  build:
     jobs:
       - build
       - test
