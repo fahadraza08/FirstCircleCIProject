@@ -7,5 +7,5 @@ jobs:
       - run:
          name: Deploy
          command: |
-           ant ./builds/build.xml
+           ant -f ./builds/build.xml
        
