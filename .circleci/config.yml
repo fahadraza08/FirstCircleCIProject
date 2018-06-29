@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: ant build.xml
+          command: ant ./builds/build.xml
