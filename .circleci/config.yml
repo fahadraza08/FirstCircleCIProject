@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/java:8-jdk
-    working_directory: ./
+    working_directory: ~/project
     steps:
       - run:
          name: Deploy
