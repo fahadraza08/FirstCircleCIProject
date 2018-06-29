@@ -8,4 +8,4 @@ jobs:
       - run:
          name: Deploy
          command: |
-           ant ./builds/build.xml
+           ant /builds/build.xml
