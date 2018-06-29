@@ -6,9 +6,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: echo unit test
-          working_directory: unit_tests
-
-      - run:
-          command: echo integ test
-          working_directory: integ_tests
+          command: ant build.xml
