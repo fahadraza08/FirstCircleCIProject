@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/openjdk7
+      - image: openjdk7
     steps:
       - run:
          name: Deploy
