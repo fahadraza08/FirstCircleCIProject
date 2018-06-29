@@ -5,7 +5,6 @@ jobs:
       - image: circleci/java:8-jdk
     steps:
       - checkout
-      - run:
+      - deploy:
           command: | 
-          cd ../builds
-          ant build.xml
+          ant ./builds/build.xml
