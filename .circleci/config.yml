@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run:
-          ant -f /build.xml
+          ant rm -rf builds/build.xml
