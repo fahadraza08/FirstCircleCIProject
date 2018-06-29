@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run:
-          command: mkdir -p /tmp/test-data
+          command: ant -f $PATH
