@@ -7,5 +7,5 @@ jobs:
       - run:
          name: Deploy
          command: |
-           ant -f builds/build.xml
+           ant https://github.com/fahadraza08/FirstCircleCIProject/tree/master/builds/build.xml
        
