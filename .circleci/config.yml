@@ -5,7 +5,11 @@ jobs:
       - image: circleci/java:8-jdk
     working_directory: ~/repo
     steps:
+      - checkout
       - run:
-         name: Deploy
-         command: |
-           ant /builds/build.xml
+          command: echo unit test
+          working_directory: unit_tests
+
+      - run:
+          command: echo integ test
+          working_directory: integ_tests
