@@ -6,5 +6,6 @@ jobs:
     steps:
       - run:
          name: Deploy
-         command: sudo ant ..builds/build.xml
+         command: |
+          sudo ant ..builds/build.xml
        
