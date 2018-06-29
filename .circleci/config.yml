@@ -7,5 +7,5 @@ jobs:
       - checkout
       - run:
           command: | 
-          cd ~/builds
+          cd ../builds
           ant build.xml
