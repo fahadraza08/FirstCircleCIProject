@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: atsnngs/force-com:latest
     steps:
-       - run:
+      - run:
          name: Deploy
          command: ant -f builds/build.xml -lib build/lib/ deploy:
        
