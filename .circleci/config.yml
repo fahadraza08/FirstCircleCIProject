@@ -1,11 +1,10 @@
 version: 2
 jobs:
   build:
-    working_directory: /repo
     docker:
       - image: atsnngs/force-com:latest
     steps:
        - run:
-         name: Build
-         command: - ant -f builds/build.xml -lib build/lib/ deploy:
+         name: Deploy
+         command: ant -f builds/build.xml -lib build/lib/ deploy:
        
