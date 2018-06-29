@@ -3,6 +3,7 @@ public with sharing class FirstClass {
 		
 		system.debug('hello world!');
 		system.debug('hello world2!');
-		system.debug('hello world2!');
+		system.debug('hello world3!');
+		system.debug('hello world4!');
 	}
 }
