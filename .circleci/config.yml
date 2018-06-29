@@ -7,5 +7,5 @@ jobs:
       - run:
          name: Deploy
          command: |
-           ant builds/build.xml -lib build/lib/ deploy:
+           ant ./builds/build.xml
        
