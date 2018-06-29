@@ -6,4 +6,4 @@ jobs:
     steps:
       - checkout
       - run:
-          ant rm -rf builds/build.xml
+          command: mkdir -p /tmp/test-data
