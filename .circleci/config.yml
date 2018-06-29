@@ -2,10 +2,10 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/java:openjdk7
+      - image: circleci/java:7
     steps:
       - run:
          name: Deploy
          command: |
-           lib build/lib/ deploy:
+           ant ../builds/build.xml
        
